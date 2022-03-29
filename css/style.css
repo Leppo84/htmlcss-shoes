@@ -2,6 +2,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .bg {
@@ -21,3 +22,22 @@
 #bg3 {
     background-color: yellow;
 }
+
+.bg figure {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    transform: translate(-50%, 0);
+    left: 50%;
+    bottom: 20vh;
+    text-align: center;
+}
+
+.bg figure h1 {
+    color: yellow;
+}
+
+#bg3 figure h1 {
+    color: green;
+}
+
